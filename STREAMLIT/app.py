@@ -13,10 +13,10 @@ def main():
     string = "Offical Release"
     st.set_page_config(page_title=string, page_icon="chart_with_upwards_trend")
     st.header("What's your chance of to get to forgein colleges ")
-    st.markdown("##### Are you planning go aborad !?\n##### So let's try evaluating the chance of you getting admit.. 🤖 ")
+    st.markdown("##### Are you planning to go aborad !?\n##### So let's try evaluating the chance of you getting admit.. 🤖 ")
     st.image(
             "https://cdn.pixabay.com/photo/2017/09/08/00/37/friend-2727305_960_720.jpg",
-            width=500, # Manually Adjust the width of the image as per requirement
+            width=400, # Manually Adjust the width of the image as per requirement
         
         )
     st.sidebar.metric(label="Made By", value="Aditya Bhatt")
